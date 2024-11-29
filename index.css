@@ -94,3 +94,31 @@ width: 200px;
     font-size: 30px;
     background-color:rgb(255, 255, 255);
   }
+
+
+
+
+
+
+
+  @media (max-width: 1200px) {
+    .main {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      padding: 50px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .main {
+      grid-template-columns: 1fr; /* Single column layout */
+      padding: 20px;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .main {
+      padding: 10px;
+    }
+  }
